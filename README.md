@@ -2,7 +2,8 @@
 ===============
 
 ファイルを提供します。埋込み層を実装してあります。コマンドラインから引数として
-EMBED_SIZE=100 python wildml_train_theano_embed.py
+
+> EMBED_SIZE=100 python wildml_train_theano_embed.py
 
 と実行すれば動きます。本当の reddit のデータではなく1/10 のサイズのデータを使って
 います。書き換えるには，54行目をコメントアウトして53行目行頭のコメントを外してください。
